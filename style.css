@@ -1,0 +1,96 @@
+/*
+    Estilo do site
+    pode ser compartilhado entre diferentes páginas
+*/
+.viagens {
+    background-image: url("stacked-waves-haikei\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    margin: 3px;
+    padding:3px;
+    border: p8to 3px;
+    background-color: rgb(9, 14, 12);
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+@font-face{
+    font-family: "FONTE";
+    src: url("/fonts/BrannbollConnect_PERSONAL_USE.ttf") format("truetype");
+}
+.titulo {
+    font-family: "FONTE";
+}
+.comidas {
+    background-image: url("./fundo\ comidas.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fig {
+    text-align: center;
+    font: 2px, 3pt, arial;
+}
+
+.ul {
+    font: 10px, 10pt, arial;
+    text-align: center, justify;
+    margin: 50px;
+}
+
+@font-face {
+    font-family: 'Travel';
+    src: url('./fonts/Travel.otf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('./fonts/Travel.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+.titlee {
+    font-size: 60px;
+    font-family: 'Travel';
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.navegação {
+    text-align: right;
+    color: rgb(68, 51, 51);
+   font-family: monospace, arial, sans-serif;
+}
+
+.faunaMalasia{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'test';
+
+}
+
+@font-face{
+    font-family: "test";
+    src: url('./fonts/african.ttf') format('truetype');
+}
+.minhaimagem {
+    margin: 3px;
+    padding:3px;
+    border: p8to 3px;
+    background-color: rgb(9, 14, 12);
+    height: 200px;
+    display: -ms-inline-flexbox;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
